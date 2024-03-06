@@ -32,17 +32,17 @@ Assuming you have three `.jsx` components named `Componentone.jsx`, `Componenttw
 ```bash
 'use client';
 import React from 'react';
-import Component1 from './Component1';
-import Component2 from './Component2';
-import Component3 from './Component3';
+import Component1 from './Componentone';
+import Component2 from './Componenttwo';
+import Component3 from './Componentthree';
 
 const Page = () => {
   return (
     <>
       <div className='flex flex-col gap-32 mx-auto bg-white'>
-        <Component1 />
-        <Component2 />
-        <Component3 />
+        <Componentone />
+        <Componenttwo />
+        <Componentthree />
       </div>
     </>
   );
